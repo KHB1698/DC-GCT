@@ -8,7 +8,6 @@
 
 <p align="center"><img src="figure/structure.png" width="100%" alt="" /></p>
 
-> The code with hrnet is in collation!
 
 ## Results on Human3.6M
 
