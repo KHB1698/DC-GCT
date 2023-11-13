@@ -8,6 +8,8 @@
 
 <p align="center"><img src="figure/structure.png" width="100%" alt="" /></p>
 
+> The code with hrnet is in collation!
+
 ## Results on Human3.6M
 
 Protocol 1 (mean per-joint position error) when 2D keypoints detected by CPN, HRNet and the ground truth of 2D poses.
