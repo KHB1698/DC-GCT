@@ -27,8 +27,8 @@ class opts():
         #train args
         self.parser.add_argument('--gpu', default='0', type=str, help='')
         self.parser.add_argument('--train', action='store_true')
-        self.parser.add_argument('--nepoch', type=int, default=300)
-        self.parser.add_argument('--batch_size', type=int, default=1024)
+        self.parser.add_argument('--nepoch', type=int, default=30)
+        self.parser.add_argument('--batch_size', type=int, default=512)
         self.parser.add_argument('--dataset', type=str, default='h36m')
         self.parser.add_argument('--lr', type=float, default=0.0005)
         self.parser.add_argument('--large_decay_epoch', type=int, default=5)
@@ -36,7 +36,7 @@ class opts():
         self.parser.add_argument('--lr_decay_large', type=float, default=0.5)     
         self.parser.add_argument('--min_lr', type=float, default=1e-6, metavar='LR',
                         help='lower lr bound for cyclic schedulers that hit 0')   
-        self.parser.add_argument('--workers', type=int, default=0)
+        self.parser.add_argument('--workers', type=int, default=4)
         self.parser.add_argument('--out_all', type=int, default=1)
         self.parser.add_argument('--drop',default=0.2, type=float)
         self.parser.add_argument('--seed',default=1, type=int)        
