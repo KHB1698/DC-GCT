@@ -45,7 +45,9 @@ def step(split, opt, actions, dataLoader, model, optimizer=None, epoch=None):
         out_target = gt_3D.clone()
         out_target[:, :, 0] = 0
         if split == 'train':
-            loss = mpjpe_cal(output_3D, out_target)
+            # loss = mpjpe_cal(output_3D, out_target)
+            w_mpjpe = torch.tensor([1, 1, 2.5, 2.5, 1, 2.5, 2.5, 1, 1, 1, 1.5, 1.5, 4, 4, 1.5, 4, 4]).cuda()
+            loss = weighted_mpjpe(output_3D, out_target, w_mpjpe)
             N = input_2D.size(0)
             loss_all['loss'].update(loss.detach().cpu().numpy() * N, N)
             optimizer.zero_grad()
