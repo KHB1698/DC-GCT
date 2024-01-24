@@ -46,7 +46,7 @@ ${POSE_ROOT}/
 ```
 
 ## Download pretrained model
-The pretrained model is [here](https://drive.google.com/file/d/11A1k3uOISYV3AeJRKOzKTtw9UHsEuT5B/view?usp=drive_link), please download it and put it in the './ckpt/pretrained' directory.
+The pretrained model is [here](https://drive.google.com/drive/folders/1dAPqctM5bGgPDpXjfh2rkr1s5-Dorwcz?usp=sharing), please download it and put it in the './ckpt/pretrained' directory.
 
 ## Test the model
 To test on Human3.6M on single frame, run:
@@ -94,5 +94,3 @@ Our code is extended from the following repositories. We thank the authors for r
 - [StridedTransformer-Pose3D](https://github.com/Vegetebird/StridedTransformer-Pose3D)
 - [HTNet](https://github.com/vefalun/HTNet/tree/main)
 
-## Licence
-MIT
