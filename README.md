@@ -8,6 +8,7 @@
 
 <p align="center"><img src="figure/structure.png" width="100%" alt="" /></p>
 
+**This link contains the code that supports our latest work:** [**DRPose**](https://github.com/KHB1698/DRPose)
 
 ## Results on Human3.6M
 
