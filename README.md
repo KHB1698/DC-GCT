@@ -1,10 +1,10 @@
-# Double-chain Constraints for 3D Human Pose Estimation in Images and Videos
+# Double-Chain Graph Convolution Transformer for 3D Human Pose Estimation
 
 
 
-> [**Double-chain Constraints for 3D Human Pose Estimation in Images and Videos**](https://arxiv.org/abs/2308.05298),             
+> [**Double-Chain Graph Convolution Transformer for 3D Human Pose Estimation**](https://arxiv.org/abs/2308.05298),             
 > Hongbo Kang, Yong Wang, Mengyuan Liu, Doudou Wu, Peng Liu, Wenming Yang  
-> *arXiv, 2023*
+> *TMM, 2025*
 
 <p align="center"><img src="figure/structure.png" width="100%" alt="" /></p>
 
@@ -77,12 +77,14 @@ python demo/vis.py
 
 If you find our work useful in your research, please consider citing:
 
-    @article{kang2023double,
-    title={Double-chain Constraints for 3D Human Pose Estimation in Images and Videos},
-    author={Kang, Hongbo and Wang, Yong and Liu, Mengyuan and Wu, Doudou and Liu, Peng and Yang, Wenming},
-    journal={arXiv preprint arXiv:2308.05298},
-    year={2023}
+    @article{kang2025double,
+      title={Double-Chain Graph Convolution Transformer for 3D Human Pose Estimation},
+      author={Kang, Hongbo and Wang, Yong and Liu, Mengyuan and Wu, Doudou and Liu, Peng and Yang, Wenming},
+      journal={IEEE Transactions on Multimedia},
+      year={2025},
+      publisher={IEEE}
     }
+
 
 
 ## Acknowledgement
